@@ -1,0 +1,122 @@
+.navbar {
+  overflow: hidden;
+  background-color: rgb(70, 63, 58);
+  font-family: Arial;
+}
+
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  display: block;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:rgb(138, 129, 124);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: rgb(70, 63, 58);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(138, 129, 124);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h1.webtitle { background-image: url(kahwa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 400px;
+  font-size: 200px;
+  margin-top: 10px;
+  margin-bottom:1px;
+  text-shadow: 
+    -1px -1px 0 rgb(50, 69, 90), 
+    1px -1px 0 rgb(50, 69, 90),  
+    -1px 1px 0 rgb(50, 69, 90),  
+    1px 1px 0 rgb(50, 69, 90);   
+  }
+
+span { 
+  font-family: "Oswald", sans-serif;
+  color: black;
+  font-size: 50px;
+    font-weight: 500;
+  border: rgb(39, 44, 67) solid 3px;
+ margin-bottom:10px;
+  text-align:center;
+  background-color:white;
+}
+ 
+.webtitle1{background-image: url(wazwan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 300px;
+  font-size: 100px;
+  margin-top: 50px;
+  text-shadow: 
+    -1px -1px 0 rgb(50, 69, 90), 
+    1px -1px 0 rgb(50, 69, 90),  
+    -1px 1px 0 rgb(50, 69, 90),  
+    1px 1px 0 rgb(50, 69, 90);   
+  }
+.center{ 
+text-align:center;
+margin-top: 1px;
+padding-bottom:10px;
+}
+p{background-color:white;
+display: block;
+ font-family:"Noto Sans", sans-serif;
+font-weight: 300; 
+line-height: 1.4;
+ margin-top:5px;
+  vertical-align: baseline;
+  margin-top:0;
+}
+body{
+background-color:rgb(244, 243, 238);
+}
