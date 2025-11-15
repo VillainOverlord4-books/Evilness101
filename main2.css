@@ -1,0 +1,282 @@
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+.navbar {
+  overflow: hidden;
+  background-color: rgb(70, 63, 58);
+  font-family: Arial;
+}
+.webtitle-pg3{  background-image: url(AB.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 400px;
+  font-size: 150px;
+  margin-top: 10px;
+  text-shadow: 
+    -1px -1px 0 rgb(50, 69, 90),
+     1px -1px 0 rgb(50, 69, 90),
+    -1px  1px 0 rgb(50, 69, 90),
+     1px  1px 0 rgb(50, 69, 90);}
+
+
+.navbar {
+  display: flex;                      
+  justify-content: center;            /* centers items horizontally */
+  align-items: center;                /* vertically centers links within the bar */
+  background-color: rgb(26, 36, 56);  
+  padding: 10px 0;                    /* gives some breathing room top & bottom */
+  width: 100%;                        
+  box-shadow: 0 0 15px rgba(0,0,0,0.6); /* subtle depth */
+  /* remove position: fixed and top:0 so it scrolls with the page */
+}
+
+/* ===== NAV LINKS ===== */
+.navbar a {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;          /* smooth hover animation */
+  font-family: 'Cinzel', serif;       /* noble villain energy */
+  letter-spacing: 1px;                /* adds refinement */
+}
+
+/* space between dropdowns or plain links */
+.navbar a, .dropdown {
+  margin: 0 10px;
+}
+
+/* ===== DROPDOWN CONTAINER ===== */
+.dropdown {
+  position: relative;
+  display: inline-block;              /* aligns neatly in flexbox */
+}
+
+/* ===== DROPDOWN BUTTON ===== */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* ===== HOVER EFFECTS ===== */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(138, 129, 124);
+  color: #00FF9C;                     /* subtle toxic-emerald highlight */
+  text-shadow: 0 0 8px #00FF9C;       /* faint glow */
+}
+
+/* ===== DROPDOWN CONTENT ===== */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;                          /* drops directly beneath the button */
+  left: 0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.6);
+  background-color: rgb(70, 63, 58);
+  z-index: 1;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* dropdown links inside */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+/* hover for dropdown links */
+.dropdown-content a:hover {
+  background-color: rgb(138, 129, 124);
+  color: #00FF9C;
+}
+
+/* show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1.webtitle {
+    background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  text-shadow: 
+    -1px -1px 0 rgb(50, 69, 90),
+     1px -1px 0 rgb(50, 69, 90),
+    -1px  1px 0 rgb(50, 69, 90),
+     1px  1px 0 rgb(50, 69, 90);
+color: rgb(0, 255, 156);
+font-family: 'Cinzel';
+font-weight: normal;
+margin-top:10%;
+
+
+}
+
+span {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: white;;
+  font-size: 50px;
+  font-weight: 300;
+  border: green solid 3px;
+margin-bottom: 400px;
+
+}
+.right{
+  position: absolute;
+margin-left: 45%;
+  margin-right: 50px;
+  top: 550px;
+}
+.right-landmark{
+  position: absolute;
+margin-left: 55%;
+  margin-right: 50px;
+  top: 500px;
+}
+.right-landmark2{
+  position: absolute;
+margin-left: 55%;}
+
+.image2 {
+  width: 39%;
+  padding: 10px;
+}
+
+
+h1.webtitle-pg1 {
+  background-image: url(srinigar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 400px;
+  font-size: 150px;
+  margin-top: 10px;
+  text-shadow: 
+    -1px -1px 0 rgb(50, 69, 90),
+     1px -1px 0 rgb(50, 69, 90),
+    -1px  1px 0 rgb(50, 69, 90),
+     1px  1px 0 rgb(50, 69, 90);
+}
+
+em {
+  font-weight: bold;
+  text-align: center;
+color: white;
+}
+
+.Gulmarg {
+  width: 49%;
+  padding: 10px;
+}
+
+.Pahalgam {
+  width:100%;
+  padding:10px;
+}
+
+h3.textG {
+    font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+
+h2.textG2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.left{position: absolute;
+margin-right: 50%;
+  margin-left:50px;
+  width:45%
+}
+.left1{padding: 10px;}
+.logo{margin-left: 55%;
+width: 49%;
+padding:10px;}
+h1.webtitle4{
+  background-image: url(welcomeH.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 400px;
+  font-size: 150px;
+  margin-top: 10px;
+  text-shadow: 
+    -1px -1px 0 rgb(50, 69, 90),
+     1px -1px 0 rgb(50, 69, 90),
+    -1px  1px 0 rgb(50, 69, 90),
+     1px  1px 0 rgb(50, 69, 90);
+}
+body{
+background: linear-gradient(180deg, #0D0D0D 0%, #1A1A1A 100%);
+
+}
+.introb{
+border-radius:30px;
+border: 2px solid white;
+color:white;
+text-align: center;
+margin-top: 30px;
+}
+.introb:hover{
+border-radius:30px;
+border: 2px solid rgb(0, 255, 156);
+color:rgb(0, 255, 156);
+text-align: center;
+margin-top: 30px;
+font-family: 'Cinzel';
+}
+
+p{
+color:white;
+margin-bottom: 100px;
+
+
+}
+
+em{
+text-align: center;
+}
+h2{
+text-align: center;
+
+}
+.arrow {
+  display: block;
+  text-align: center;
+  font-size: 3rem;
+  color: #00FF9C; /* Toxic Emerald */
+  text-shadow: 0 0 15px #00FF9C;
+  margin-top: 20px;
+  animation: float 2s ease-in-out infinite;
+  cursor: pointer;
+margin-bottom:300px;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
